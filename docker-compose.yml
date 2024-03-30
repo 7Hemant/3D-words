@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  my-service:
+    image: nextjs14:02
+    ports:
+      - "3000:3000"
+    volumes:
+      - "C:/Users/Hemant/Desktop/learning/3d:/app"
